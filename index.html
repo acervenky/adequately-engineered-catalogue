@@ -5,10 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- Primary SEO -->
-<title>Adequately Engineered by Venky | IndITR · JobMemo — Boring Stack, Real Problems</title>
-<meta name="description" content="Software for genuinely annoying problems. IndITR: Indian tax agent with 301 tests and zero LLM arithmetic. JobMemo: Chrome extension that scores jobs, researches companies, and writes cover letters. No backend. No cloud." />
+<title>Adequately Engineered by Venky | IndITR · JobMemo · MumbaiDams — Boring Stack, Real Problems</title>
+<meta name="description" content="Software for genuinely annoying problems. IndITR: Indian tax agent with 301 tests and zero LLM arithmetic. JobMemo: Chrome extension that scores jobs and writes cover letters. MumbaiDams: all 7 Mumbai reservoirs, ENSO tracking, 12-month projections. No backend. No cloud." />
 <meta name="author" content="Venkatesh Surve" />
-<meta name="keywords" content="IndITR, Indian income tax ITR filing, ITR-1 ITR-2, LangGraph tax agent, Form 16 parser, Zerodha capital gains STCG LTCG, Ollama local AI, JobMemo, Chrome extension job search, job fit score, cover letter generator, adequately engineered, Python tax engine, AY 2026-27" />
+<meta name="keywords" content="IndITR, Indian income tax ITR filing, ITR-1 ITR-2, LangGraph tax agent, Form 16 parser, Zerodha capital gains STCG LTCG, Ollama local AI, JobMemo, Chrome extension job search, job fit score, cover letter generator, adequately engineered, Python tax engine, AY 2026-27, MumbaiDams, Mumbai water levels, BMC dams, Tansa Vihar Tulsi Modak Sagar Bhatsa Vaitarna, ENSO monsoon forecast, Mumbai water cuts" />
 <meta name="robots" content="index, follow" />
 <link rel="canonical" href="https://acervenky.github.io/adequately-engineered-catalogue/" />
 
@@ -16,7 +16,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://acervenky.github.io/adequately-engineered-catalogue/" />
 <meta property="og:title" content="Adequately Engineered by Venky — Boring Stack. Real Problems. Ships." />
-<meta property="og:description" content="Software for genuinely annoying problems. IndITR: Indian tax agent with 301 tests and zero LLM arithmetic. JobMemo: Chrome extension that scores jobs, researches companies, and writes cover letters. No backend. No cloud." />
+<meta property="og:description" content="Software for genuinely annoying problems. IndITR: Indian tax agent with 301 tests and zero LLM arithmetic. JobMemo: Chrome extension that scores jobs and writes cover letters. MumbaiDams: all 7 Mumbai reservoirs, ENSO tracking, 12-month projections. No backend. No cloud." />
 <meta property="og:image" content="https://acervenky.github.io/brains_and_relays_solarpcu.jpg" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
@@ -26,7 +26,7 @@
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:creator" content="@acervenky" />
 <meta name="twitter:title" content="Adequately Engineered by Venky — Boring Stack. Real Problems. Ships." />
-<meta name="twitter:description" content="Software for genuinely annoying problems. IndITR: Indian tax agent with 301 tests and zero LLM arithmetic. JobMemo: Chrome extension that scores jobs, researches companies, and writes cover letters. No backend. No cloud." />
+<meta name="twitter:description" content="Software for genuinely annoying problems. IndITR: Indian tax agent with 301 tests and zero LLM arithmetic. JobMemo: Chrome extension that scores jobs and writes cover letters. MumbaiDams: all 7 Mumbai reservoirs, ENSO tracking, 12-month projections. No backend. No cloud." />
 <meta name="twitter:image" content="https://acervenky.github.io/brains_and_relays_solarpcu.jpg" />
 
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -164,7 +164,7 @@
   }
   .cards {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     border: 1px solid var(--border);
     gap: 1px;
     background: var(--border);
@@ -338,9 +338,6 @@
   footer a:hover { color: var(--sky); }
 
   /* ── RESPONSIVE ── */
-  @media (max-width: 1000px) {
-    .cards { grid-template-columns: 1fr 1fr; }
-  }
   @media (max-width: 720px) {
     nav, .hero, .projects, footer { padding-left: 20px; padding-right: 20px; }
     .hero-heading { font-size: 44px; }
@@ -355,7 +352,7 @@
 <nav>
   <div class="nav-brand">Adequately <span>Engineered</span> &mdash; Venky</div>
   <div class="nav-right">
-    <span class="nav-status">2 tools operational</span>
+    <span class="nav-status">3 tools operational</span>
     <a href="#projects">Projects</a>
     <a href="https://github.com/acervenky" target="_blank">GitHub &nearr;</a>
   </div>
@@ -377,7 +374,7 @@
 
 <!-- PROJECTS -->
 <section class="projects" id="projects">
-  <div class="section-label">projects &mdash; 2 shipped &middot; 1 in progress</div>
+  <div class="section-label">projects &mdash; 3 shipped &middot; 1 in progress</div>
   <div class="cards">
 
     <!-- INDITR -->
@@ -467,9 +464,58 @@
       </a>
     </div>
 
+    <!-- MUMBAIDAMS -->
+    <div class="card">
+      <div class="card-index">003 &middot; water</div>
+      <h2 class="card-name">MumbaiDams</h2>
+      <div class="card-pitch">"All 7 Reservoirs. One Page. No Guesswork About Water Cuts."</div>
+      <div class="card-desc">
+        Every pre-monsoon: five articles saying Mumbai will run dry, five saying it won&rsquo;t.
+        BMC publishes weekly storage numbers for each lake separately. Nobody puts them together.
+        Nobody tells you whether the ENSO index this year actually implies a bad monsoon.
+        Nobody models what that means for next October.<br><br>
+        MumbaiDams pulls storage data from BMC, FPJ, and numerical.co.in, cross-validates against
+        CWC official bulletins, layers in Open-Meteo rainfall corrected for the 38% peak-monsoon
+        underestimate against IMD ground stations, tracks NOAA&rsquo;s ENSO index, and runs
+        12-month projections. Tansa, Vihar, Tulsi, Modak Sagar, Bhatsa, Upper Vaitarna, Middle Vaitarna
+        &mdash; all on one page. Static HTML. No server. No account.
+      </div>
+      <div class="card-stats">
+        <div class="stat">
+          <div class="stat-val">7</div>
+          <div class="stat-key">reservoirs tracked</div>
+        </div>
+        <div class="stat">
+          <div class="stat-val">12mo</div>
+          <div class="stat-key">projections</div>
+        </div>
+        <div class="stat">
+          <div class="stat-val">0</div>
+          <div class="stat-key">backends</div>
+        </div>
+      </div>
+      <div class="card-tech">
+        <span class="pill hi">Vanilla JS</span>
+        <span class="pill hi">Open-Meteo</span>
+        <span class="pill">NOAA CPC</span>
+        <span class="pill">IMD / CWC</span>
+        <span class="pill">GitHub Pages</span>
+        <span class="pill">No Backend</span>
+      </div>
+      <a class="card-link" href="https://github.com/acervenky/mumbai-dam-tracker" target="_blank">
+        <span>acervenky/mumbai-dam-tracker</span>
+        <span>&rarr;</span>
+      </a>
+      <a class="card-link" href="https://acervenky.github.io/mumbai-dam-tracker/" target="_blank" style="border-top: none; padding-top: 8px; color: var(--sky);">
+        <span>acervenky.github.io/mumbai-dam-tracker</span>
+        <span>&nearr;</span>
+      </a>
+    </div>
+
+
     <!-- WIP -->
     <div class="card wip">
-      <div class="card-index">003 &middot; <span class="redact">???</span></div>
+      <div class="card-index">004 &middot; <span class="redact">???</span></div>
       <div class="wip-name">Something Real</div>
       <div class="wip-pitch">"found another problem. currently annoyed by it."</div>
       <div class="wip-desc">
