@@ -11,7 +11,7 @@ A static GitHub Pages catalogue for the **Adequately Engineered by Venky** serie
 
 ---
 
-![Status](https://img.shields.io/badge/Status-2_Shipped-brightgreen?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-3_Shipped-brightgreen?style=for-the-badge)
 ![Type](https://img.shields.io/badge/Type-GitHub_Pages-black?style=for-the-badge&logo=github)
 ![Stack](https://img.shields.io/badge/Stack-Vanilla_HTML%2FCSS-blue?style=for-the-badge)
 ![Build Step](https://img.shields.io/badge/Build_Step-None-gray?style=for-the-badge)
@@ -22,7 +22,7 @@ A static GitHub Pages catalogue for the **Adequately Engineered by Venky** serie
 
 A single `adequately-engineered.html` catalogue page that lists the tools in this series. It features:
 
-- **Project cards** for IndITR and JobMemo — with descriptions, tech stacks, key stats, and GitHub links
+- **Project cards** for IndITR, JobMemo, and MumbaiDams — with descriptions, tech stacks, key stats, and GitHub links
 - **A WIP card** for whatever's being fixed next
 - **Dark navy design** — clean, readable, Inter font, sky-blue accent. Works on first open.
 
@@ -36,7 +36,8 @@ Zero frameworks. Zero dependencies. Zero npm install. One file.
 |---|---------|--------------|
 | 001 | [IndITR](https://github.com/acervenky/adequately-engineered-inditr) | Indian income tax filing (AY 2026-27) — LLM parses, Python calculates, 301 tests make sure it's right |
 | 002 | [JobMemo](https://github.com/acervenky/adequately-engineered-jobmemo) | Chrome extension that scores jobs, researches companies, and drafts cover letters — directly on the portal, no backend |
-| 003 | Next one | Found another problem. Currently annoyed by it. |
+| 003 | [MumbaiDams](https://github.com/acervenky/mumbai-dam-tracker) | All 7 Mumbai reservoirs on one page — storage history, ENSO tracking, IMD cross-validation, 12-month projections. No backend. ([Live](https://acervenky.github.io/mumbai-dam-tracker/)) |
+| 004 | Next one | Found another problem. Currently annoyed by it. |
 
 ---
 
